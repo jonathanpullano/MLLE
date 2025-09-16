@@ -1350,6 +1350,7 @@ void main() {
         { if (TilesetSelection.SelectedIndex < 0) return; TilesetScrollbar.Focus(); ChangeTileset(((NameAndFilename)TilesetSelection.Items[TilesetSelection.SelectedIndex]).Filepath); }
 
         private void aboutMLLEToolStripMenuItem_Click(object sender, EventArgs e) { _suspendEvent.Reset(); new AboutBox1().ShowDialog(); _suspendEvent.Set(); }
+        private void keyboardShortcutsToolStripMenuItem_Click(object sender, EventArgs e) { _suspendEvent.Reset(); new HotkeysDialog().ShowDialog(); _suspendEvent.Set(); }
 
         private void levelmakingTipsToolStripMenuItem_Click(object sender, EventArgs e)
         {

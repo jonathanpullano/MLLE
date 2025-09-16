@@ -103,6 +103,7 @@
             this.setDeadspaceColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.readmeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.keyboardShortcutsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.levelmakingTipsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.angelScriptAPIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -813,6 +814,7 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.readmeToolStripMenuItem,
+            this.keyboardShortcutsToolStripMenuItem,
             this.toolStripSeparator4,
             this.levelmakingTipsToolStripMenuItem,
             this.angelScriptAPIToolStripMenuItem,
@@ -824,12 +826,19 @@
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // readmeToolStripMenuItem
-            // 
+            //
             this.readmeToolStripMenuItem.Enabled = false;
             this.readmeToolStripMenuItem.Name = "readmeToolStripMenuItem";
             this.readmeToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.readmeToolStripMenuItem.Text = "Contents";
-            // 
+            //
+            // keyboardShortcutsToolStripMenuItem
+            //
+            this.keyboardShortcutsToolStripMenuItem.Name = "keyboardShortcutsToolStripMenuItem";
+            this.keyboardShortcutsToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.keyboardShortcutsToolStripMenuItem.Text = "Keyboard Shortcuts...";
+            this.keyboardShortcutsToolStripMenuItem.Click += new System.EventHandler(this.keyboardShortcutsToolStripMenuItem_Click);
+            //
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -2045,6 +2054,7 @@
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem readmeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem keyboardShortcutsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutMLLEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem levelPropertiesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem passwordToolStripMenuItem;

@@ -115,6 +115,12 @@
     <Compile Include="PackageLevelForm.Designer.cs">
       <DependentUpon>PackageLevelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="HotkeysDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotkeysDialog.Designer.cs">
+      <DependentUpon>HotkeysDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Palette.cs" />
     <Compile Include="PaletteForm.cs">
       <SubType>Form</SubType>
